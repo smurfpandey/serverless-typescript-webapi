@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+        "url": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "meta_data": {
+            "type": "object",
+            "additionalItems": true
+        }
+    },
+    "required": ["url", "title"],
+    "additionalProperties": false
+}
